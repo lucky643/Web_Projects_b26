@@ -1,0 +1,426 @@
+*{
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+                 font-family: gilroy;
+}
+html, body{
+                 width: 100%;
+                 height: 100%;
+}
+#nav{
+                 width: 100%;
+                 height: 5%;
+                 background-color: #ffffffe4;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 gap: 40px;
+                 position: fixed;
+                 /* z-index: 9; */
+}
+#nav a{
+                 color: rgb(79, 79, 79);
+                 text-decoration: none;
+                 font-size: 12px;
+}
+#nav i{
+                 color:  rgb(79, 79, 79);
+                 font-size: 17px;
+}
+#nav a:hover{
+                 color: black;
+}
+#nav i:hover{
+                 color: black;
+}
+a{
+                 text-decoration: none;
+                 font-weight: 500;
+                 color: royalblue;
+}
+a:hover{
+                 text-decoration: underline;
+                 color: #7b4444;
+}
+#navspace{
+                 width: 100%;
+                 height: 5%;
+                 background-color: black;
+}
+#box1{
+                 width: 100%;
+                 height: 95%;
+                 color: #f3f3f3;
+}
+p{
+                 font-size: 14px;
+                 font-weight: 300;
+                 padding: 15px 485px;
+                 color: #222;
+}
+#box1-part1 a{
+                 font-size: 21px;
+}
+#box1-part1{
+                 background-color: black;
+                 width: 100%;
+                 height: 85%;
+                 background-image: url(./images/hero_iphone15pro_announce__c1coc7n3a0uq_largetall.jpg);
+                 background-position: bottom;
+                 background-size: cover;
+                 background-size: 185%;
+                 display: flex;
+                 flex-direction: column;
+}
+#box1-part1 h1{
+                 margin-top: 40px;
+                 text-align: center;
+                 color: white;
+                 font-size: 57px;
+                 font-weight: 580;
+}
+#box1-part1 h3{
+                 text-align: center;
+                 color: white;
+                 font-size: 29px;
+                 font-weight: 470;
+}
+#box1-part1 h4{
+                 text-align: center;
+                 color: white;
+                 font-size: 19px;
+                 font-weight: 360;
+                 opacity: 0.5;
+                 margin-top: 15px;
+}
+
+#box2{
+                 width: 100%;
+                 height: 70%;
+                 background-image: url(./images/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+                 background-position: bottom;
+                 background-size: cover;
+                 background-size: 180%;
+                 display: flex;
+                 flex-direction: column;
+}
+#box2 h1{
+                 margin-top: 40px;
+                 text-align: center;
+                 color: rgb(21, 21, 21);
+                 font-size: 57px;
+                 font-weight: 580;
+}
+#box2 h3{
+                 text-align: center;
+                 color: black;
+                 font-size: 28px;
+                 font-weight: 420;
+                 opacity: 0.9;
+}
+#box2 h4{
+                 text-align: center;
+                 color: #222;
+                 font-size: 20px;
+                 font-weight: 500;
+                 opacity: 0.7;
+                 margin-top: 15px;
+}
+#box2 a{
+                 font-size: 21.5px;
+}
+
+#box3{
+                 width: 100%;
+                 height: 80.5%;
+                 margin: 13px 0;
+                 background-color:black;
+                 background-image: url(./images/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall.jpg);
+                 background-position: bottom;
+                 background-size: 182%;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+}
+#box3 img{
+                 margin-top: 60px;
+                 width: 11.75%;
+}
+#box3 h3{
+                 text-align: center;
+                 color: white;
+                 font-size: 27px;
+                 font-weight: 470;
+                 margin: 12px 0;
+}
+#box3 h4{
+                 text-align: center;
+                 color: #f3f3f3;
+                 font-size: 20px;
+                 font-weight: 360;
+                 opacity: 0.5;
+                 margin-top: 7px;
+}
+#box3 a{
+                 font-size: 21.5px;
+}
+
+
+#box4{
+                 width: 100%;
+                 height: 70%;
+                 display: flex;
+                 gap: 13px;
+}
+#box4 #box4-left{
+                 width: 50%;
+                 height: 100%;
+                 flex-direction: column;
+                 text-align: center;
+                 background-image: url(./images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+                 background-position: center;
+                 background-size: cover;
+}
+#box4-left img{
+                 width: 17%;
+                 margin-top: 70px;
+}
+#box4-left h4{
+                 text-transform: capitalize;
+                 font-weight: 400;
+                 font-size: 20px;
+                 margin: 10px 0;
+}
+#box4-left h5{
+                 opacity: 0.6;
+                 text-transform: capitalize;
+                 font-weight: 500;
+                 font-size: 17px;
+}
+.link{
+                 margin: 20px 0;
+                 display: flex;
+                 gap: 30px;
+                 justify-content: center;
+                 align-items: center;
+}
+.link a{
+                 text-decoration: none;
+                 font-size: 17px;
+                 font-weight: 500;
+                 color: royalblue;
+}
+.link a:hover{
+                 text-decoration: underline;
+                 color: #7b4444;
+}
+#box4-right{
+                 width: 50%;
+                 height: 100%;
+                 flex-direction: column;
+                 text-align: center;
+                 background-image: url(./images/promo_carbon_neutral__fmzt9ypcw9e2_large.jpg);
+                 background-position: center;
+                 background-size: cover;
+}
+#box4-right img{
+                 width: 37%;
+                 margin-top: 50px;
+}
+#box4-right h4{
+                 text-transform: capitalize;
+                 font-size: 20px;
+                 font-weight: 400;
+}
+#box5{
+                 width: 100%;
+                 height: 70%;
+                 margin: 13px 0;
+                 display: flex;
+                 gap: 13px;
+}
+#box5 #box5-left{
+                 width: 50%;
+                 height: 100%;
+                 background-image: url(./images/promo_apple_watch_se_order__j70okzn28uye_large.jpg);
+                 background-position: center;
+                 background-size: cover;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+}
+#box5 #box5-left img{
+                 margin-top: 80px;
+}
+#box5-left h4{
+                 font-weight: 400;
+                 font-size: 20px;
+                 margin: 8px 0;
+}
+#box5-left h5{
+                 opacity: 0.6;
+                 font-weight: 500;
+                 font-size: 17px;
+}
+#box5 .link a{
+                 font-size: 17px;
+}
+#box5 #box5-right{
+                 width: 50%;
+                 height: 100%;
+                 background-image: url(./images/promo_bts2023_startframe__exvt2t1iuxme_large.jpg);
+                 background-position: center;
+                 background-size: cover;
+                 flex-direction: column;
+                 text-align: center;
+}
+#box5-right h1{
+                 margin-top: 75px;
+                 font-size: 40px;
+                 font-weight: 630;
+}
+#box5-right h4{
+                 font-size: 20px;
+                 font-weight: 400;
+                 margin: 10px 0;
+}
+#box5-right h5{
+                 font-size: 18px;
+                 font-weight: 500;
+                 margin-top: 10px;
+                 color: #b94916f3;
+}
+
+#box6{
+                 width: 100%;
+                 height: 68%;
+                 display: flex;
+                 gap: 13px;
+}
+#box6-left{
+                 width: 50%;
+                 height: 100%;
+                 background-color: aquamarine;
+                 background-image: url(./images/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
+                 background-position: center;
+                 background-size: cover;
+                 text-align: center;
+
+}
+#box6-left h1{
+                 margin-top: 52px;
+                 font-size: 40px;
+                 font-weight: 630;
+}
+#box6-left h4{
+                 font-size: 21px;
+                 font-weight: 420;
+                 margin-top: 3px;
+}
+#box6-right{
+                 width: 50%;
+                 height: 100%;
+                 text-align: center;
+                 background-image: url(./images/iphone_tradein_promo__d5au3rkw5kuq_large.jpg);
+                 background-position: center;
+                 background-size: cover;
+}
+#box6-right img{
+                 margin-top: 61px;
+}
+#box6-right h4{
+                 font-size: 21px;
+                 font-weight: 420;
+                 margin-top: 6px;
+}
+#box6-right a{
+                 margin-top: 200px;
+}
+#page5{
+                 height: 100%;
+                 width: 100%;
+                 padding: 10px;
+                 position: relative;
+}
+#sl-wrapper{
+                 height: 100%;
+                 width: 100%;
+                 white-space: nowrap;
+                 overflow-x: auto;
+}
+#sl-wrapper::-webkit-scrollbar{
+                 display: none;
+}
+.slider{
+                 height: 90%;
+                 width: 80%;
+                 margin: 0 5px;
+                 background-color: blue;
+                 display: inline-block;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 animation-name: slider;
+                 animation-iteration-count: infinite;
+                 animation-duration: 30s;
+                 animation-timing-function: linear;
+                 
+}
+@keyframes slider {
+                 from{
+                                  transform: translateX(0%);
+                 }
+                 to{
+                                  transform: translateX(-100%);
+                 }
+}
+#ad1{
+                 background-image: url(https://www.apple.com/v/home/be/images/tv-plus-gallery/fnb__brvfy48gzsz6_medium.jpg);
+}
+#ad2{
+                 background-image: url(https://is2-ssl.mzstatic.com/image/thumb/44dJzkosAhD0-ugRepvsfw/689x387.jpg);
+}
+#ad3{
+                 background-image: url(https://is2-ssl.mzstatic.com/image/thumb/RHgv46IVF7USMeluFzve5w/689x387.jpg);
+}
+#ad4{
+                 background-image: url(https://is5-ssl.mzstatic.com/image/thumb/OEhJPhCZHH1Om5hMjpcQew/689x387.jpg);
+}
+#ad5{
+                 background-image: url(https://is4-ssl.mzstatic.com/image/thumb/WhpeVjuxJ9w-XfYxHAGe2g/689x387.jpg);
+}
+#ad6{
+                 background-image: url(https://is5-ssl.mzstatic.com/image/thumb/3_emSGtqKrdKh-MNRvGwFQ/689x387.jpg);
+}
+#ad7{
+                 background-image: url(https://is3-ssl.mzstatic.com/image/thumb/ageP1PYyLi7UlNiWMva32Q/689x387.jpg);
+}
+#circle{
+                 height: 50px;
+                 width: 250px;
+                 position:absolute;
+                 left: 50%;
+                 transform: translate(-50%);
+                 bottom: 2%;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 gap: 20px;
+}
+.dot{
+                 height: 10px;
+                 width: 10px;
+                 border-radius: 50%;
+                 background-color: grey;
+}
+#footer{
+                 height: 70%;
+                 width: 100%;
+                 background-color: #F5F5F7;
+}
+#footer p{
+                 font-size: 13px;
+                 color: #1212128c;
+                 margin-bottom: 11px;
+                 line-height: 19px;
+}

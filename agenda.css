@@ -1,0 +1,155 @@
+*{
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+                 font-family: gilroy;
+}
+html, body{
+                 width: 100%;
+                 height: 100%;
+                 padding: 30px;
+}
+#page{
+                 width: 100%;
+                 height: 100%;
+                 box-shadow: 0px 0px 100px 10px #000;
+}
+#nav{
+                 width: 100%;
+                 height: 10%;
+                 /* background-color: #dadada; */
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 position: relative;
+}
+#nav-logo{
+                 display: flex;
+                 gap: 5px;
+                 margin-left: 40px;
+                 margin-top: 25px;
+}
+#container{
+                 display: flex;
+}
+.circle{
+                 width: 12px;
+                 height: 12px;
+                 background-color: black;
+                 border-radius: 50%;
+                 margin: 2px 1px;
+}
+#circle1{
+                 background-color: #999;
+}
+#nav-logo h5{
+                 margin-top: 10px ;
+                 font-size: 16px;
+}
+#nav-center{
+                 width: 30%;
+                 height: 50%;
+                 display: flex;
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+                 align-items: center;
+                 justify-content: center;
+                 justify-content: space-evenly;
+                 /* background-color: aqua; */
+}
+#nav-center h4{
+                 font-size: 13px;
+                 font-weight: 500;
+}
+#nav-button{
+                 display: flex;
+                 width: 17%;
+                 justify-content: space-evenly;
+}
+#nav-button button{
+                 padding: 10px 15px;
+                 border-radius: 10px;
+                 border-width: 3px ;
+                 background-color: #fff;
+}
+#nav-button #login-button{
+                 border: none;
+}
+#center{
+                 width: 100%;
+                 height: 40%;
+                 /* background-color: antiquewhite; */
+                 display: flex;
+                 flex-direction: column;
+                 text-align: center;
+}
+#center h1{
+                 font-size: 90px;
+                 line-height: 90px;
+                 margin-top: 22px;
+}
+#center p{
+                 margin: 35px 0;
+                 font-size: 18px;
+                 line-height: 25px;
+}
+#center-bottom{
+                 width: 100%;
+                 height: 50%;
+                 padding: 30px 40px;
+                 /* background-color: #555; */
+                 display: flex;
+                 justify-content: space-between;
+}
+#center-bottom .frame{
+                 width: 19%;
+                 height: 100%;
+                 background-color: navajowhite;
+                 border-radius: 20px;
+}
+#center-bottom .frame:nth-child(2){
+                 height: 60%;
+                 margin-top: 123px
+}
+#center-bottom .frame:nth-child(3){
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: space-between;
+                 align-items: center;
+                 background-color: transparent;
+}
+#center-bottom .frame:nth-child(3) #frame3-part1{
+                 background-color: #dadada;
+                 margin: 0 20px;
+                 text-align: center;
+                 border-radius: 15px;
+}
+#center-bottom .frame:nth-child(3) #frame3-part1 button{
+                 padding: 15px 30px;
+                 background-color: black;
+                 color: #fff;
+                 font-size: 17px;
+                 border-radius: 10px;
+                 border: none;
+}
+#center-bottom .frame:nth-child(3) #frame3-part1 p{
+                 font-size: 13px;
+                 margin: 10px 0;
+}
+#center-bottom .frame:nth-child(3) #frame3-part2{
+                 width: 70%;
+                 height: 40%;
+                 background-color: #869e9c;
+                 border-radius: 20px;
+                 text-align: center;
+}
+#center-bottom .frame:nth-child(3) #frame3-part2 h3{
+                 margin: 22px 0;
+                 font-size: 22px;
+}
+#center-bottom .frame:nth-child(4){
+                 height: 60%;
+                 margin-top: 123px
+}
