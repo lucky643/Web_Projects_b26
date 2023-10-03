@@ -1,0 +1,195 @@
+*{
+                 margin: 0;
+                 padding: 0;
+                 box-sizing: border-box;
+}
+html, body{
+                 width: 100%;
+                 height: 100%;
+}
+#page1{
+                 width: 100%;
+                 height: 100%;
+                 background-image: url(./images/5f11465c2ae6bc44354005a7_hero-image-skincare.jpg);
+                 background-position: center;
+                 background-size: cover;
+}
+#page1 img{
+                 margin: 17px 200px;
+                 width: 140px;
+}
+#page1 h5{
+                 font-size: 15px;
+                 letter-spacing: 1.5px;
+                 font-family: gilroy;
+                 font-weight: 500;
+                 margin-top: 30%;
+                 margin-bottom: 20px;
+                 margin-left: 200px;
+}
+#page1 h1{
+                 font-size: 100px;
+                 font-family: "CanelaDeck-Light-Trial";
+                 font-weight: 500;
+                 margin-left: 200px;
+                 line-height: .9;
+}
+#page2{
+                 width: 100%;
+                 height: fit-content;
+                 padding: 80px 220px;
+}
+#page2 h1{
+                 font-size: 70px;
+                 font-family: "CanelaText-Light-Trial.otf";
+                 font-weight: 480;
+                 margin-top: 10px;
+                 margin-bottom: 50px;
+}
+#page2-top{
+                 width: 100%;
+                 height: 7%;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+}
+#page2-top h4{
+                 font-size: 35px;
+                 font-weight: 420;
+}
+#page2-top #category{
+                 width: 38%;
+                 height: fit-content;
+                 background-color: #f4edde;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+}
+#page2-top #category p{
+                 margin-right: 10px;
+                 color: #555;
+}
+#page2-top #category button{
+                 border: none;
+                 padding: 10px 20px;
+                 font-weight: 500;
+                 font-size: 15px;
+                 color: #555;
+                 background-color: #f4edde;
+}
+#page2-top #category #clean{
+                 border: 1px solid #000;
+                 color: #000;
+}
+#page2-frames{
+                 width: 100%;
+                 height: 60%;
+                 margin-top: 50px;
+                 display: flex;
+}
+h3{
+                 font-size: 33px;
+                 font-weight: 450;
+                 margin-top: 150px;
+}
+.frames{
+                 border: 1px solid #000;
+                 padding: 0px 20px;
+}
+#page2 #page2-frames .frames img{
+                 width: 97%;
+                 transition: all ease .7s;
+}
+#page2 #page2-frames .frames img:hover{
+                 scale: 1.2;
+}
+.frames p{
+                 margin-bottom: 10px;
+                 font-family: gilroy;
+                 opacity: .85;
+}
+.frames h2{
+                 bottom: 50px;
+}
+#page3{
+                 width: 100%;
+                 height: 100%;
+                 display: flex;
+}
+#page3 #page3-left{
+                 width: 50%;
+                 height: 100%;
+                 padding-top: 17%;
+                 padding-left: 13%;
+}
+#page3 #page3-left h1{
+                 font-size: 69px;
+                 font-weight: 200;
+                 margin: 10px;
+}
+#page3 #page3-left p{
+                 font-size: 20px;
+}
+#page3 #page3-left button{
+                 margin-top: 50px;
+                 padding: 17px 30px;
+                 background-color: black;
+                 color: white;
+                 border: none;
+                 transition: all ease 0.3s;
+}
+#page3 #page3-left button img{
+                 margin-left: 5px;
+                 transition: all ease 0.5s;
+}
+#page3 #page3-left button:hover{
+                 background-color: #444;
+}
+#page3 #page3-left button img:hover{
+                 left: 10px;
+}
+#page3 #page3-right{
+                 width: 50%;
+                 height: 100%;
+}
+#rightbox{
+                 width: 70%;
+                 height: 45%;
+}
+#row1{
+                 width: 100%;
+                 height: 50%;
+                 display: flex;
+                 margin-top: 35%;
+}
+#row2{
+                 width: 100%;
+                 height: 50%;
+                 display: flex;
+}
+.boxs{
+                 width: 50%;
+                 height: 100%;
+                 background-color: red;
+                 border: 1px solid black;
+                 overflow: hidden;
+                 transition: all ease 1s;
+}
+.boxs img{
+                 width: 290px;
+                 object-fit: cover;
+                 object-position: center;
+                 transition: all ease 0.5s;
+}
+.boxs img:hover{
+                 filter: brightness(1.15);
+}
+i{
+                 font-size: 18px;
+                 display: flex;
+                 justify-content: center;
+                 margin-bottom: 10px;
+}
+i img{
+                 height: 20px;
+}
