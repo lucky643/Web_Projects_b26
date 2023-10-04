@@ -142,8 +142,11 @@ h3{
                  margin-left: 5px;
                  transition: all ease 0.5s;
 }
-#page3 #page3-left button:hover{
+#page3 #page3-left button:hover {
                  background-color: #444;
+}
+#page3 #page3-left button:hover img{
+                 padding-left: 7px;
 }
 #page3 #page3-left button img:hover{
                  left: 10px;

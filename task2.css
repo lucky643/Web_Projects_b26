@@ -7,15 +7,13 @@
 html, body{
                  width: 100%;
                  height: 100%;
-                 /* padding: 0 75px; */
 }
 #page1{
                  width: 100%;
                  height: 100%;
-                 padding: 0 75px;
+                 padding: 0 150px;
 }
-#nav
-{
+#nav{
                  width: 100%;
                  height: 18.5%;
                  display: flex;
@@ -45,14 +43,14 @@ html, body{
 }
 #nav-center h3{
                  font-weight: 500;
+                 letter-spacing: 2px;
 }
 #page1 #nav #nav-center img{
                  width: auto;
                  height: 75%;
-                 transition: all ease 1s;
+                 /* transition: all ease 1s; */
 }
 #page1 #nav #nav-center img:hover{
-                 scale: 1.1;
                  background-image: url(https://uploads-ssl.webflow.com/62bb0a9586616e19ecbb2448/62bb0b3717d5445fea298a71_logo-dark.svg);
                  background-position: center;
                  background-size: cover;
@@ -74,8 +72,9 @@ html, body{
                  display: flex;
                  flex-direction: column;
                  justify-content: space-between;
-                 margin: 100px 0;
-                 padding: 0 75px;
+                 margin-top: 150px;
+                 margin-bottom: 100px;
+                 padding: 0 150px;
 }
 #page2 h1{
                  font-size: 60px;
@@ -98,7 +97,7 @@ html, body{
                  width: 100%;
                  display: flex;
                  justify-content: space-between;
-                 padding: 0 75px;
+                 padding: 0 150px;
 }
 #page3-frame1{
                  margin-left: 130px;
@@ -145,11 +144,28 @@ img{
 .imgs img:hover{
                  opacity: 0;
 }
+#scroler{
+                 width: auto;
+                 height: 125px;
+                 margin-top: 200px;
+                 background-color: #e4f250;
+                 display: flex;
+                 gap: 70px;
+                 align-items: center;
+                 overflow: auto;          
+}
+#scroler img{
+                 width: 50px;
+                 height: 80px;
+                 background-color: #e4f250;
+}
+#scroler h1{
+                 font-size: 50px;
+}
 #page4{
-                 height: 50%;
+                 height:50%;
                  width: 100%;
                  background-color: #222;
-                 margin-top: 200px;
                  display: flex;
 }
 #page4-part1{
@@ -166,8 +182,6 @@ img{
 #page4-part2{
                  height: 100%;
                  width: 35%;
-                 /* display: flex;
-                 flex-direction: column; */
 }
 #page4-part2 button{
                  margin-top: 21%;
@@ -193,12 +207,85 @@ img{
 #page4-part2  #icons .circle{
                  width: 60px;
                  height: 60px;
-                 border-radius: 50px;
+                 border-radius: 50%;
                  background-color: #04c75c;
                  display: flex;
                  justify-content: center;
                  align-items: center;
+                 transition: all ease .5s;
 }
 #page4-part2  #icons .circle i{
                  font-size: 30px;
+}
+.circle:hover i{
+                 margin-left: 5px;
+}
+#page5{
+                 width: 100%;
+                 height: 80%;
+                 background-color: #222;
+                 padding-left: 170px;
+                 padding-top: 50px;
+                 display: flex;
+                 gap: 25px;
+}
+#page5 .frame{
+                 width: 45%;
+                 height: 50%;
+}
+#page5::-webkit-scrollbar{
+                 display: none;
+}
+#page5 .frame h1{
+                 color: #fff;
+                 font-weight: 500;
+}
+#page6{
+                 width: 100%;
+                 height: 88%;
+                 display: flex;
+                 align-items: center;
+}
+.page6-part{
+                 width: 49.95%;
+                 height: 100%;
+                 padding: 7% 0;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+}
+.page6-part img{
+                 width: 22%;
+}
+.page6-part h1{
+                 font-size: 60px;
+                 font-weight: 500;
+                 text-align: center;
+                 padding-top: 55px;
+                 padding-bottom: 45px;
+}
+.page6-part p{
+                 font-size: 23px;
+                 text-align: center;
+}
+#line{
+                 width: 0.1%;
+                 height: 74%;
+                 background-color: #000;
+}
+#page7{
+                 width: 100%;
+                 height: 105%;
+                 background-color: aqua;
+}
+#top7{
+                 width: 100%;
+                 height: 55%;
+                 background-color: #0c00cd;
+                 padding: 0 50px;
+}
+#bottom7{
+                 width: 100%;
+                 height: 50%;
+                 background-color: #222;
 }
