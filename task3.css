@@ -137,16 +137,18 @@ h3{
                  color: white;
                  border: none;
                  transition: all ease 0.3s;
+                 gap: 0;
 }
 #page3 #page3-left button img{
                  margin-left: 5px;
                  transition: all ease 0.5s;
+                 flex-shrink: 0;
 }
 #page3 #page3-left button:hover {
                  background-color: #444;
 }
 #page3 #page3-left button:hover img{
-                 padding-left: 7px;
+                 margin-left: 5px;
 }
 #page3 #page3-left button img:hover{
                  left: 10px;

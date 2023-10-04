@@ -7,6 +7,7 @@
 html, body{
                  width: 100%;
                  height: 100%;
+                 overflow-x:hidden;
 }
 #page1{
                  width: 100%;
@@ -48,7 +49,6 @@ html, body{
 #page1 #nav #nav-center img{
                  width: auto;
                  height: 75%;
-                 /* transition: all ease 1s; */
 }
 #page1 #nav #nav-center img:hover{
                  background-image: url(https://uploads-ssl.webflow.com/62bb0a9586616e19ecbb2448/62bb0b3717d5445fea298a71_logo-dark.svg);
@@ -145,7 +145,7 @@ img{
                  opacity: 0;
 }
 #scroler{
-                 width: auto;
+                 width: 100%;
                  height: 125px;
                  margin-top: 200px;
                  background-color: #e4f250;
@@ -158,9 +158,16 @@ img{
                  width: 50px;
                  height: 80px;
                  background-color: #e4f250;
+                 display: flex;
+                 overflow: auto;
+                 flex-shrink: 0;
 }
 #scroler h1{
                  font-size: 50px;
+                 flex-shrink: 0;
+}
+#scroler::-webkit-scrollbar{
+                 display: none;
 }
 #page4{
                  height:50%;
@@ -173,6 +180,7 @@ img{
                  width: 65%;
                  padding-top: 85px;
                  padding-left: 170px;
+                 flex-shrink: 0;
 }
 #page4-part1 h1{
                  font-size: 60px;
@@ -228,10 +236,21 @@ img{
                  padding-top: 50px;
                  display: flex;
                  gap: 25px;
+                 flex-shrink: 0;
+                 overflow: auto;
 }
 #page5 .frame{
                  width: 45%;
                  height: 50%;
+}
+#page5 .frame .image{
+                 background-image: url(./images/63403102f05a3d5dbe2052bc_seb-hover.webp); 
+                 background-position: center;
+                 background-size: cover;
+                 transition: all ease 0.5s;
+}
+.image img:hover{
+                 opacity: 0;
 }
 #page5::-webkit-scrollbar{
                  display: none;
@@ -284,8 +303,35 @@ img{
                  background-color: #0c00cd;
                  padding: 0 50px;
 }
+#top7 #star1{
+                 height: 100px;
+                 margin: 50px 50px;
+}
+#top7 #star2{
+                 height: 90px;
+                 margin-top: 60%;
+                 margin-left: 90%;
+}
 #bottom7{
                  width: 100%;
                  height: 50%;
                  background-color: #222;
+}
+#top7-center{
+                 width: 500px;
+                 height: 300px;
+                 background-color:#e4f250;
+                 position: relative;
+                 top: 10%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 text-align: center;
+}
+#top7-center h1{
+                 font-size: 45px;
+                 font-weight: 600;
+
 }
