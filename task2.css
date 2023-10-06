@@ -24,12 +24,21 @@ html, body{
 }
 #nav i{
                  font-size: 60px;
+                 opacity: .8;
+}
+i:hover{
+                 color: #04c75c;
 }
 #nav button {
                  padding: 16px 50px;
                  border-radius: 40px;
                  border: 1px solid #000;
                  font-size: 17px;
+                 transition: all ease 1s;
+}
+button:hover{
+                 background: linear-gradient(to right, #fff, #04c75c, #00893e);
+                 color: black;
 }
 #nav-center{
                  width: 40%;
@@ -45,6 +54,9 @@ html, body{
 #nav-center h3{
                  font-weight: 500;
                  letter-spacing: 2px;
+}
+#nav-center h3:hover{
+                 color: #04c75c;
 }
 #page1 #nav #nav-center img{
                  width: auto;
@@ -113,7 +125,7 @@ html, body{
                  background-size: cover;
                  overflow: hidden;
 }
-img{
+.imgs img{
                  width: 580px;
                  transition: all ease .5s;
 }
@@ -143,16 +155,23 @@ img{
 }
 .imgs img:hover{
                  opacity: 0;
+                 scale: 2;
 }
 #scroler{
-                 width: 100%;
+                 width: fit-content;
                  height: 125px;
                  margin-top: 200px;
                  background-color: #e4f250;
                  display: flex;
-                 gap: 70px;
+                 gap: 30px;
                  align-items: center;
-                 overflow: auto;          
+                 overflow: auto;    
+                 position: relative;
+                 animation-name: move;
+                 animation-duration: 7s;
+                 animation-iteration-count: infinite;
+                 animation-direction: alternate;
+                 animation-timing-function: linear;
 }
 #scroler img{
                  width: 50px;
@@ -168,6 +187,14 @@ img{
 }
 #scroler::-webkit-scrollbar{
                  display: none;
+}
+@keyframes move{
+                 0%{
+                                  transform: translate(100%);
+                 }
+                 100%{
+                                  transform: translate(-100%);
+                 }
 }
 #page4{
                  height:50%;
@@ -200,6 +227,7 @@ img{
                  border-radius: 40px;
                  border: 2px solid #fff;
                  background-color: transparent;
+                 transition: all ease .5s;
 }
 #page4-part2 button i{
                  font-size: 27px;
@@ -225,9 +253,6 @@ img{
 #page4-part2  #icons .circle i{
                  font-size: 30px;
 }
-.circle:hover i{
-                 margin-left: 5px;
-}
 #page5{
                  width: 100%;
                  height: 80%;
@@ -239,18 +264,43 @@ img{
                  flex-shrink: 0;
                  overflow: auto;
 }
-#page5 .frame{
-                 width: 45%;
-                 height: 50%;
-}
 #page5 .frame .image{
-                 background-image: url(./images/63403102f05a3d5dbe2052bc_seb-hover.webp); 
                  background-position: center;
                  background-size: cover;
+                 overflow: hidden;
+                 object-position: center;
+                 object-fit: cover;
+                 box-shadow: -5px -5px 20px 1px #000;
+}
+#page5 .frame .image img{
+                 height: 390px;
                  transition: all ease 0.5s;
+
+}
+#page5 .frame .image1{
+                 background-image: url(./images/63403102f05a3d5dbe2052bc_seb-hover.webp);
+}
+#page5 .frame .image2{
+                 background-image: url(./images/6447e319a6b8e48a257d5526_artist-hover.webp);
+}
+#page5 .frame .image3{
+                 background-image: url(./images/63402fcc7777b6c91548e383_illwookie-hover.webp);
+}
+#page5 .frame .image4{
+                 background-image: url(./images/634032c7c1e9cbc18e9fd7e9_mateusz-hover.webp);
+}
+#page5 .frame .image5{
+                 background-image: url(./images/64996566362d4092f1163a91_david-1.webp);
+}
+#page5 .frame .image6{
+                 background-image: url(./images/651170899d82f34cf3c22958_artist-photo-1.jpg);
+}
+#page5 .frame .image7{
+                 background-image: url(./images/63402f3fb2c39e6431f0c554_ana-hover.webp);
 }
 .image img:hover{
                  opacity: 0;
+                 scale: 2;
 }
 #page5::-webkit-scrollbar{
                  display: none;
@@ -258,6 +308,10 @@ img{
 #page5 .frame h1{
                  color: #fff;
                  font-weight: 500;
+                 padding-top: 25px;
+}
+#page5 .frame h1:hover{
+                 color: #04c75c;
 }
 #page6{
                  width: 100%;
@@ -301,37 +355,110 @@ img{
                  width: 100%;
                  height: 55%;
                  background-color: #0c00cd;
-                 padding: 0 50px;
+                 display: flex;
+                 position: relative;
 }
 #top7 #star1{
-                 height: 100px;
-                 margin: 50px 50px;
+                 height: 135px;
+                 margin-top: 70px;
+                 margin-left: 150px;
+                 animation: rotate 7s linear infinite;
 }
 #top7 #star2{
-                 height: 90px;
-                 margin-top: 60%;
-                 margin-left: 90%;
+                 height: 100px;
+                 margin-left: 180%;
+                 animation: rotate 7s linear infinite;
 }
-#bottom7{
-                 width: 100%;
-                 height: 50%;
-                 background-color: #222;
+@keyframes rotate{
+                 100%{
+                                  rotate: 360deg;
+                 }
 }
 #top7-center{
-                 width: 500px;
-                 height: 300px;
-                 background-color:#e4f250;
-                 position: relative;
-                 top: 10%;
+                 width: 40%;
+                 height: 320px;
+                 position: absolute;
+                 top: 50%;
                  left: 50%;
                  transform: translate(-50%, -50%);
                  display: flex;
                  flex-direction: column;
                  align-items: center;
                  text-align: center;
+                 flex-shrink: 0;
 }
 #top7-center h1{
-                 font-size: 45px;
-                 font-weight: 600;
-
+                 font-size: 55px;
+                 font-weight: 500;
+                 margin-top: 40px;
+                 color: white;
+}
+#top7-center p{
+                 font-size: 26px;
+                 font-weight: 400;
+                 color: #fff;
+                 margin: 25px 0;
+}
+#center1{
+                 padding: 10px;
+                 margin-top: 12px;
+                 display: flex;
+                 gap: 20px;
+}
+#email{
+                 padding: 15px 60px;
+                 font-size: 20px;
+                 color: white;
+                 border: none;
+                 border-bottom: 2px solid black;
+                 background-color: transparent;
+}
+#center1 button{
+                 padding: 0 50px;
+                 border-radius: 40px;
+                 font-size: 17px;
+                 border: none;
+                 background-color: #04c75c;
+                 transition: all ease 0.5s;
+}
+#bottom7{
+                 width: 100%;
+                 height: 50%;
+                 padding: 90px 200px;
+                 background-color: #222;
+                 display: flex;
+                 gap: 160px;
+}
+#bottom7 p{
+                 font-size: 17px;
+                 color: white;
+                 margin-top: 40px;
+}
+#bottom7 h5{
+                 font-size: 20px;
+                 color: white;
+                 line-height: 50px;
+                 font-weight: 500;
+}
+#bottom7 h4{
+                 font-size: 30px;
+                 color: white;
+                 margin-top: -10px;
+                 margin-bottom: 27px;
+                 font-weight: 420;
+}
+#bottom7 i{
+                 font-size: 30px;
+                 opacity: 0.7;
+                 color: white;
+                 margin-left: 15px;
+}
+#bottom7 h5:hover{
+                 color: #04c75c;
+}
+#bottom7 h4:hover{
+                 color: #04c75c;
+}
+#bottom7 i:hover{
+                 color: #04c75c;
 }
