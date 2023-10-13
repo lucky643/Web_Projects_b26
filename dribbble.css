@@ -70,7 +70,6 @@ html, body{
                  padding: 10px 25px;
 }
 #center1 h4{
-                 font-family: dribbble2;
                  font-weight: 520;
                  font-size: 18px;
 }
@@ -79,7 +78,6 @@ html, body{
                  text-align: center;
                  font-size: 80px;
                  font-weight: 500;
-                 font-family: dribbble2;
                  line-height: 80px;
 }
 #center h3{
@@ -184,7 +182,6 @@ html, body{
 #page2 {
                  width: 100%;
                  height: 67%;
-                 /* background-color:#dadada; */
                  display: flex;
                  flex-direction: column;
                  text-align: center;
@@ -216,13 +213,11 @@ html, body{
 #page3{
                  width: 100%;
                  height: 92%;
-                 /* background-color: #000; */
                  display: flex;
 }
 #page3-left{
                  width: 50%;
                  height: 100%;
-                 /* background-color: #ffda79; */
 }
 #page3-left-frame1{
                  margin-top: 190px;
