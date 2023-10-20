@@ -96,26 +96,46 @@ html, body{
 #center button:hover{
                  background-color: #666;
 }
-#slider{
+#sliderBlock{
                  width: 100%;
                  height: 40%;
                  margin-top: 30px;
+                 height: fit-content;
+                 display: flex;
+                 align-items: center;
+                 overflow: auto;
+}
+#sliderBlock::-webkit-scrollbar{
+                 display: none;
+}
+#slider{
+                 width: 100%;
+                 height: 40%;
                  display: flex;
                  justify-content: space-between;
 }
 #slider .sliders{
                  width: 20%;
-                 height: 100%;
+                 height: 400px;
                  background-color: #f8e49e;
                  margin: 0 5px;
                  border-radius: 40px;
                  overflow: hidden;
+                 animation: moves 5s linear infinite normal;
+}
+@keyframes moves {
+                 0%{
+                                  transform: translate(0%);
+                 }
+                 100%{
+                                  transform: translate(calc(-200% - 4px - 10px));
+                 }
 }
 .sliders img{
-                 height: 100%;
+                 height: 400px;
 }
 .sliders video{
-                 height: 100%;
+                 height: 400px;
 }
 #brands{
                  width: 100%;
