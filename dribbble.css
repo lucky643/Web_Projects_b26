@@ -113,6 +113,7 @@ html, body{
                  height: 40%;
                  display: flex;
                  justify-content: space-between;
+                 animation: moves 20s linear infinite normal;
 }
 #slider .sliders{
                  width: 20%;
@@ -121,14 +122,13 @@ html, body{
                  margin: 0 5px;
                  border-radius: 40px;
                  overflow: hidden;
-                 animation: moves 5s linear infinite normal;
 }
 @keyframes moves {
                  0%{
                                   transform: translate(0%);
                  }
                  100%{
-                                  transform: translate(calc(-200% - 4px - 10px));
+                                  transform: translate(calc(-100% - 4px));
                  }
 }
 .sliders img{
